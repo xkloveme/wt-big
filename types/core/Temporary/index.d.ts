@@ -1,0 +1,31 @@
+import Factory from '@dorring/sdk/core/Base/factory';
+export default class Temporary extends Factory<Temporary> {
+    zoom: number;
+    offsetX: number;
+    offsetY: number;
+    editorContentDrag: boolean;
+    editorContentDragging: boolean;
+    editorContentStartX: number;
+    editorContentStartY: number;
+    editorContentClientX: number;
+    editorContentClientY: number;
+    sceneRightMenu: boolean;
+    sceneRightMenuX: number;
+    sceneRightMenuY: number;
+    widgetRightMenu: boolean;
+    widgetRightMenuX: number;
+    widgetRightMenuY: number;
+    widgetsRightMenu: boolean;
+    widgetsRightMenuX: number;
+    widgetsRightMenuY: number;
+    widgetDragClientX: number;
+    widgetDragClientY: number;
+    clearRightMenu(): void;
+    scrollLeft(step?: number): void;
+    scrollRight(step?: number): void;
+    scrollTop(step?: number): void;
+    scrollBottom(step?: number): void;
+    zoomIn(step?: number): void;
+    zoomOut(step?: number): void;
+    constructor();
+}
