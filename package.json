@@ -25,7 +25,7 @@
 		"changelog": "standard-version",
 		"build:dts": "rimraf dist/types && esno build/gen-dts.ts",
 		"build:umd": "vue-cli-service build --mode build --target lib --dest dist packages/index.ts --name dorring --no-clean",
-		"build": "npm run build:dts && npm run build:umd",
+		"build": "vue-cli-service build",
 		"test": "jest",
 		"coverall": "cat coverage/lcov.info | coveralls",
 		"stylelint": "stylelint 'src/**/*.{scss,vue}' --config '.stylelintrc.js' --fix"
