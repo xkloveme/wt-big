@@ -9,6 +9,7 @@ const resolve = dir => {
 
 module.exports = {
 	assetsDir: './',
+  publicPath: './',
 	filenameHashing: false,
 	productionSourceMap: false,
 	lintOnSave: false,
