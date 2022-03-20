@@ -19,6 +19,10 @@ export default class ScreenTask {
 	height = 3240 // 大屏高度
 	show = true// 显示侧边
 	url = 'https://inftab.com/' // 大屏URL
+	showRed = false // 开启缝线
+	color = 'rgba(254, 1, 1, 1)' // 缝线颜色
+	zong = 7 // 纵线
+	heng = 3 // 横线
 	backgroundColor = ['rgba(255,255,255,1)'] // 大屏背景颜色
 	gradientDirection = 90
 	backgroundImage = '' // 大屏背景图片

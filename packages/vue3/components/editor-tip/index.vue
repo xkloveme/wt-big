@@ -21,7 +21,7 @@ export default defineComponent({
 <style lang="scss" scoped>
 .editor-content-tip {
 	right: 0;
-	bottom: -30px;
+	top: 0px;
 	height: 12px;
 	line-height: 12px;
 	color: #999;

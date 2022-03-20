@@ -5,3 +5,9 @@
 内置1920*7+1080*3分辨率
 
 尽情使用吧
+
+
+https://wt-big.vercel.app/
+
+
+https://www.jixiaokang.com/wt-big/
